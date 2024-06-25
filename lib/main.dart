@@ -8,6 +8,8 @@ void main() {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [Colors.deepPurple, Colors.pink],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
           ),
           child: const Center(
